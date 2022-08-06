@@ -1,0 +1,90 @@
+MODULE :- 1 ASSIGNMENT (HTML)
+
+1.Are the HTML tags and elements the same thing?
+Ans.No,these are not same.HTML tags holds the HTML elements and HTML elements holds the content.
+    Tags are labels you use to mark up the begining and end of an element where An element is a set of opening and closing tags in use. 
+
+2.What are tags and attributes in HTML?
+Ans. In HTML the tags are the starting(<) and ending(>) of the element.
+     In other words we can say that the content in between the starting(<) and ending(>) of the HTML element also called as tags.
+     In HTML there are some self closed tags and some tags will not auto close we have to close it.
+     Attributes should always be specified in the start tags and all tags can have attributes. 
+
+3.What are void elements in HTML?
+Ans.The void elements are the elements in which the elements doesn't have end tags.
+    For eg. <br>,<hr>,<link>,<img>,etc.
+
+4.What are HTML Entities?
+Ans.An HTML entity is used to display invisible characters and reserved characters and every character has an unique entity code.
+
+5.What are different types of lists in HTML? • What is the ‘class’ attribute in HTML?
+Ans.There are three types of lists in HTML.
+    1.Ordered lists       :- In Ordered lists, the lists items will be marked with numbers by default but we can change by alphabets, by roman numbers, etc.
+                             The tag for ordered lists is the start tag <ol> and the end tag </ol>.
+    2.Unordered lists     :- In Unordered lists, the kists items will be marked with bullets by default but it can changed by square, etc.
+                             The tag for for unordered lists is the start tag <ul> abd the end tag </ul>.
+    3.Description lists   :- In Description lists, the list is list of term,with description of each term.
+                             The tag for description lists is the start tag <dl> and the end tag </dl>.
+    The class attribute in HTML is used to point to a class in style sheets.
+    The class name which is written in the HTML tags and that class name we can call in style sheets.
+
+6.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+Ans.The id attribute in the HTML has a unique id which is used to specify the HTML document.For eg. <element id="id_name">
+    The class attribute in the HTML has same value for multiple elements and it allows space and separated values.
+
+7.What are the various formatting tags in HTML?
+Ans.Various formatting tags in HTML.
+   1.<b>,<strong> :- Both tags are used to make bold text.
+   2.<i>,<em>     :- Both tags are used to make italic text.
+   3.<small>,<big>:- The small tag is used for small text whereas big tag is used for big text.
+   4.<sup>,<sub>  :- The sup tag is used for superscript a text whereas the sub tag is used for subscript a text.
+   5.<ins>,<del>  :- The ins tag is used to underline a text marking the part as inserted and the del tag is used to delete the text it adds the strike line on the text. 
+   6.<mark>       :- The mark tag is used to highlight the text.
+
+8.How is Cell Padding different from Cell Spacing?
+Ans.Cell padding different from Cell spacing is Cell padding specifies the space between the cell border and its content which is inside the cell where the Cell spacing specifies the space between the cells.
+
+9.How can we club two or more rows or columns into a single row or column in an HTML table?
+Ans.We can club two or more rows or columns into a single row or column in an HTML table by merging two or more rows into a single row by writing an attribite rowspan and for merging columns we can write colspan.
+
+10.What is the difference between a block-level element and an inline element?
+Ans.A block level elements begins with the new line and it uses the 100% width available whereas the inline element's height and width should be modifiable and it takes only the required width and doesn't start with new line.
+
+11.How to create a Hyperlink in HTML?
+Ans.For creating a link we can use <a></a> tag and the attribute of <a> tag is href attribute which indicates the link destination. 
+    Syntax :- <a href="URL">content</a>
+
+12.What is the use of an iframe tag?
+Ans.iframe tag is used to embed another document within the current HTML document and the attribute of iframe is src attribute.
+    Syntax :- <iframe src="URL"></iframe>
+
+13.What is the use of a span tag? Explain with example?
+Ans.The span tag is used to mark up the line or mark up the paragraph and It is a inline container element.
+    For eg. <p>hello<span style="color:Red;">This should be marked</span> moto</p>
+
+14.How to insert a picture into a background image of a web page?  
+Ans.In the style tag write the tagname/classname/idname in this write background property and paste the url.
+    Syntax:<style>
+             tagname/classname/idname
+             {
+              background: URL("");
+             }
+           </style>
+15.How are active links different from normal links?
+Ans.An active links is a links when the mouse cursor is placed over that link whereas the normal link is a link where the mouse cursor is not placed over that link.
+
+16.What are the different tags to separate sections of text?
+Ans.Different tags to separate sections of text.
+   1.<br></br>: This tag is used to separate the line of text which breaks current line and continues another line.
+   2.<p></p>  : This tag is used to contain  the text in a new paragraph.
+   3.<blockquote></blockquote> : This tag is used to define large quoted text.
+
+17.What is SVG?
+Ans.SVG is a Scalable Vector Graphic and it is an unique type of image format.It is used for displaying 2-D graphics and charts on websites.
+
+18.What is difference between HTML and XHTML?
+Ans.HTML stands for HyperText Markup Language whereas XHTML stands for Extensible HyperText Markup Language and HTML is SGML-based while XHTML is XML-based.
+
+19.What are logical and physical tags in HTML?
+Ans.Logical tags are also known as structural tags that describe the behavior, nature of the content for the enclosed text.
+    Physical tags are used to indicate the specific characters which need formation.Some of the examples of physical tags are <b>, <big>, <i>.
