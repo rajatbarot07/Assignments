@@ -1,0 +1,77 @@
+1.What are the benefits of using CSS?
+Ans. CSS(Cascading Style Sheets) gives the look of a web page.By using CSS,we can decorate the text, the spacing between paragraphs.
+     The style elements like layouts,color,fonts etc.In CSS, we can write elements once and use it multiple times.
+
+2.What are the disadvantages of CSS?
+Ans. There are different CSS which creates confusion anong web browsers and Lack of security which doesn't have the built in security that protect it from overrite.
+     It has differences in layout display.
+
+3.What is the difference between CSS2 and CSS3?
+Ans. CSS2 comprises of a single document whereas CSS3 is split into various documents called Modules.CSS3 version supports more browsers than CSS2.
+     In CSS2 there is no backward compatibility where CSS3 has backward compatibility.
+     CSS2 doesn't support border box property where CSS3 supports border box property.
+
+4.Name a few CSS style components?
+Ans. Selector  : class name, id name or element name are the selectors.
+     Property : It is like attribute some attributes are border, color, background, position etc.
+     Value     : value that will be assigned to attribute.
+                For eg: color:black;
+                color is attribute and black is value
+
+5.What do you understand by CSS opacity?
+Ans. In CSS opacity is the property of an element that describes the transparency of an element.
+
+6.How can the background color of an element be changed?
+Ans. The background color of an element firstly go to that class where we have to change the background color of an element then change the color by background property.
+   
+7.How can image repetition of the backup be controlled?
+Ans. Image repetition of the backup be controlled by using the background-repeat property in this write no repeat. 
+
+8.What is the use of the background-position property?
+Ans. The background-position property is used to set the initial position for the background image and this property allow us to move background image within its container.
+
+9.Which property controls the image scroll in the background?
+Ans. background-attachment property controls the image scroll in the background.
+
+10.Why should background and color be used as separate properties?
+Ans. Separate properties are used because background property specifies the color in the whole container whereas the color property specify the color of an element.
+
+11.How to center block elements using CSS1?
+Ans. The block-level elements have the default width of 100% of the webpage,so to center the block element we have to use the margin-left and margin-right and set value as auto.
+
+12.How to maintain the CSS specifications?
+Ans. 
+
+13.What are the ways to integrate CSS as a web page?
+Ans. There are 3 ways to integrate CSS as a web page:-
+     1. Inline CSS - this is use inside the html elements. 
+     2. Internal CSS - this is used in the <head> section.  
+     3. External CSS - by using a <link> element to link to an external CSS file.
+
+14.What is embedded style sheets?
+Ans. Embedded style sheets allow you to define styles to all HTML document in one place.
+
+15.What are the external style sheets?
+Ans. The external style sheets are the sheets which we have to create a css file and it should be called in the html file by <link> tag.
+
+16.What are the advantages and disadvantages of using external style sheets?
+Ans. Advantage :-
+     1. Using external style sheet, the styles of multiple documents can be controlled from one file.
+     2. Same class can be created to call in the multiple HTML documents.
+
+     Disadvantages :- 
+     1.With CSS, what works with one browser might not always work with another.
+     2.Until the external style sheet is loaded, it may not be possible to render the document.
+
+17.What is the meaning of the CSS selector?
+Ans. CSS selectors are used to select HTML elments which you want to style. 
+
+18.What are the media types allowed by CSS?
+Ans. Media types allowed by CSS are :-
+     1.All :- It is used for all media type devices.
+     2.Print :- It is used for printers.
+     3.Screen :- It is used for computer screens, tablets, smart-phones etc.
+     4.Speech :- It is used for screenreaders that "reads" the page out loud
+
+19.What is the rule set?
+Ans. A rule set consists of selectors and declarations.   
