@@ -1,0 +1,75 @@
+1.What is JavaScript?
+Ans. JavaScript is an advanced programming language which makes web pages more interactive and it can calculate, manipulate and validate the data.
+
+2.What is the use of isNaN function?
+Ans. The isNaN () function is used to check whether a given value is an illegal number or not. It returns true if value is a NaN else returns false.
+
+3.What is negative Infinity?
+Ans. It is a constant value which is used to represent a value which is the lowest available. 
+
+4.Which company developed JavaScript?
+Ans. Netscape company developed javascript.
+
+5.What are undeclared and undefined variables?
+Ans. Undeclared variables are those that do not exist in a program and are not declare. 
+     Undefined variables: It is a variable which we can declare but should not been assigned with any value.
+  
+6.Write the code for adding new elements dynamically?
+Ans. document.createElement("<TagName>");
+
+7.What is the difference between ViewState and SessionState?
+Ans. ViewState is maintained at page level only whereas SessionState is maintained at session level. In ViewState, Information is stored on the client’s end only where In SessionState,
+     Information is stored on the server.
+
+8.What is === operator?
+Ans. === compares the value with its types.
+
+9.How can the style/class of an element be changed?
+Ans. document.getElementById("id").style.property = new_style
+
+10.How to read and write a file using JavaScript?
+Ans. To read a file  :-  fs.readFile( file_name, encoding, callback_function ) 
+
+     To write a file :- fs.writeFile( file_name, data, options, callback )
+
+11.What are all the looping structures in JavaScript?
+Ans. For loop,While loop,Do While loop
+
+12.How can you convert the string of any base to an integer in JavaScript?
+Ans. Using parseInt () function we can convert the string to an integer.
+
+13.What is the function of the delete operator?
+Ans. delete object.property is the function of the delete operator.
+
+14.What are all the types of Pop up boxes available in JavaScript? 
+Ans. Alert Box, Confirm Box, Prompt Box available in javascript.
+
+15.What is the use of Void (0)?
+Ans. void (0) is an operator that executes an expression without reloading the web page and removes unwanted effects from the web page.
+
+16.How can a page be forced to load another page in JavaScript?
+Ans. Firstly, We can create two different function and then in both function write different URL and then use onclick() function and call the function in the tags.
+     Syntax :-
+
+        <tagname onclick="function_name1()"></tagname>
+        <tagname onclick="function_name2()"></tagname>
+
+       <script>
+         function function_name1()
+          {
+              window.location = "Path/URL"
+          }
+           
+         function function_name2()
+          {
+              window.location = "Path/URL"
+          }
+        </script>
+
+17.What are the disadvantages of using innerHTML in JavaScript?
+Ans. Disadvantages of using innerHTML in JavaScript
+
+     1.Inner HTML is slow.
+     2.Replacement is done everywhere.
+     3.It is not possible to append innerHTML.
+     4.Breaks the document.
