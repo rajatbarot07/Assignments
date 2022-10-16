@@ -1,0 +1,141 @@
+1.What are the advantages of Bootstrap?
+Ans. Advantages of Bootstrap are 
+    1.It is open source and easy to use.
+    2.It is supported by all popular browsers.
+    3.It is Fast and Time-Saving Framework.
+    4.Bootstrap's responsive CSS adjusts to Desktops,Tablets,and Mobiles.
+    5.We can quickly create a multi-column layout with pre-defined classes.
+
+2.What is a Bootstrap Container, and how does it work?
+Ans. Bootstrap Containers are the most basic layout element in Bootstrap. 
+     Bootstrap Containers are very essential and basic building blocks of bootstrap that wrap a page’s content.
+     Containers are defined within the container class (.container) and (.container-fluid).
+     
+     There are 3 types of containers :-
+     
+     1.Default Container(container)
+     2.Responsive Container(along with sm, md, lg, xl, xxl) 
+     3.Fluid Container(container-fluid)
+
+    1. Default container :- The default container uses ‘.container’ class. It provides a responsive fixed width container.
+     
+       Syntax :- <div class="container">
+                       Content here
+                 </div>
+
+    2. Responsive container :-  Responsive containers allow you to specify a class that is wide until the specified breakpoint is reached,
+                                after which we apply max-widths for each of the higher breakpoints. 
+
+       Syntax :- <div class="container-sm">for small breakpoint</div>
+                 <div class="container-md">for medium breakpoint</div>
+                 <div class="container-lg">for large breakpoint</div>
+                 <div class="container-xl">for extra large breakpoint</div>
+                 <div class="container-xxl">for extra large breakpoint</div>
+
+     3. Fluid container :-  Fluid-container uses the ‘.container-fluid’ class. It is used for a full-width container, 
+                            spanning the entire width of the viewport.
+ 
+        Syntax :- <div class="fluid-container">
+                         <!-- Content here --> 
+                  </div>
+
+3.What are the default Bootstrap text settings?
+Ans. Bootstrap's uses global default font-size is 14px, with a line-height of 1.428rem.
+     This is applied to the <body> element and all paragraphs (<p>).
+
+     Bootstrap will style the HTML headings (<h1> to <h6>) with different size.
+     1. <h1> has 36px.
+     2. <h2> has 30px.
+     3. <h3> has 24px.
+     4. <h4> has 18px.
+     5. <h5> has 14px.
+     6. <h6> has 12px.
+
+4.What do you know about the Bootstrap Grid System?
+Ans. Bootstrap Grid System allows up to 12 columns across the page. You can use each of them individually or merge them together for wider columns.
+     You can use all combinations of values summing up to 12. You can use 12 columns each of width 1, or use 4 columns each of width 3 or any other
+     combination.
+
+    xs (<576px): For Portrait Mobile Phones.
+    sm (>=576px): For Landscapes Phones.
+    md (>=768px): For Tablets/Phablets.
+    lg (>=992px): For Small-sized Desktops/Laptops.
+    xl (>=1200px): For Larger-sized Desktops/Laptops.
+
+    Components of Grid systems :-
+    
+    1. Containers  
+    2. Rows 
+    3. Columns
+    4. Columns Resets
+    5. Columns Offset
+    6. Nesting Columns
+
+5.What is the difference between Bootstrap 4 and Bootstrap 5?
+Ans. 
+                  Bootstrap 4                             |                     Bootstrap 5
+                                                          |
+     1.It has 5 tier (xs, sm, md, lg, xl).                | 1. It has 6 tier (xs, sm, md, lg, xl, xxl).
+                                                          |                
+     2.It has limited colors.                             | 2. Extra colors added with the looks, A card improved color palette.  
+                                                          |
+     3.It has jquery and all related plugins.             | 3. Jquery is removed and switched to vanilla JS with some working plugins.
+                                                          |
+     4.Bootstrap 4 supports both IE 10 and 11.            | 4. Bootstrap 5 doesn’t support IE 10 and 11.
+                                                          |   
+     5.We use .glutter with fontsize in px.               | 5. We use .g* with fontsize in rem.
+                                                          |  
+     6.Bootstrap 4 doesn’t have its own SVG icons,        | 6. Bootstrap 5 have its own SVG icons.
+       we have to use font-awesome for icons.             | 
+                                                          | 7.It enables RTL(Right to Left) switching.
+     7.It does not enable RTL(Right to Left) switching.   |    
+                                                          | 
+                                                          | 
+                                                          |  
+                                                          |     
+
+
+6.What is a Button Group, and what is the class for a basic Button Group?
+Ans. Button groups allow multiple buttons to be stacked together on a single line.
+     This is useful when you want to place items together.
+
+      Important classes to use Button groups :-
+    
+     1. .btn-group
+     2. .btn-toolbar
+     3. .btn-group-lg,.btn-group-sm,.btn-group-xs
+     4. .btn-group-vertical
+
+7.How can you use Bootstrap to make thumbnails?
+Ans. To make thumbnails using bootstrap 
+
+     1. Add an <a> tag with the class of .thumbnail around an image.
+     2. This adds four pixels of padding and a gray border.
+     3. On hover, an animated glow outlines the image.
+
+8.In Bootstrap 4, what is flexbox?
+Ans. In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components. 
+     This box makes it easier to design flexible responsive layout structures without using float or positioning attributes.
+
+9.How can one create an alert in Bootstrap?
+Ans. In Bootstrap the alert can be created using .alert class.
+
+     It has different types of alerts :-
+     1. For Success .alert-success 
+     2. For Information .alert-info 
+     3. For Warning .alert-warning 
+     4. For Danger .alert-danger 
+    
+
+10.What is a bootstrap card and how would you create one?
+Ans. A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, 
+     contextual background colors, and powerful display options. 
+
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Richard Taylor</h4>
+          <p class="card-text">Some example text.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+   </div> 

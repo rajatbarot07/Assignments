@@ -1,0 +1,28 @@
+1.What is JQuery?
+Ans. JQuery is the short and fast lightweighted javascript library.It is platform-independent and its means that "WRITE LESS DO MORE".
+     It is designed to simplify the client-side scripting of HTML.It helps us to manipulate DOM (Document Object Model) elements.
+
+2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in JQuery, JQuery Animation?
+Ans.  To Apply CSS Using JQuery :-
+       
+       //For single CSS proprty
+       $("idname/classname/tagname").css(propertyname, value);
+       
+       //For multiple CSS property
+       $("idname/classname/tagname").css(variable_name);
+
+      To Add Class in JQuery :-
+      
+      $("idname/classname/tagname").addClass(classname);
+     
+      To Remove Class in JQuery :-
+      
+      $("idname/classname/tagname").removeClass(classname);
+      
+      JQuery Animation :-
+      $("idname/classname/tagname").animate({ properties }, [speed, callback] );
+
+3.How to create slider with animation?
+Ans. To create slider with animation 
+     $("idname/classname/tagname").slideToggle(speed,callback);
+     $("idname/classname/tagname").animate({ properties });
