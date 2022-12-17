@@ -1,0 +1,106 @@
+1. Write a program to Show an alert?
+Ans. A program to show an alert :-
+     
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     </head>
+     <body>
+       <script>
+            function demo()
+            {
+               alert("This is an alert")
+            }
+            demo()
+       </script>
+     </body>
+    </html>
+
+2. What will be the result for these expressions?
+Ans. The result for these expressions will be :-
+
+    1. 5 > 4 => True 
+       Because 5 is greater than 4.
+
+    2. "apple" > "pineapple" => False 
+       Because these is a string so that the comparison between first letter so 'a' is smaller than 'p'.
+    
+    3. "2" > "12" => True 
+       Because these is also string so the comparison between between first letter so '2' is greater than '1'.   
+   
+    4. undefined == null => True 
+       Because undefined and null are same.
+
+    5. undefined === null => False 
+       Because both are same but its types are different.
+
+    6. null == "\n0\n" => False 
+       Because null only equals to undefined.
+ 
+    7. null === +"\n0\n" => False 
+       Because its types are different.
+
+3. Will alert be shown?
+    if ("0") 
+    { 
+       alert( 'Hello'); 
+    }
+
+Ans. It prints an alert 'Hello'.
+
+4. What is the code below going to output? 
+
+   alert( null || 2 || undefined );
+ 
+Ans. It prints an alert '2'. 
+
+5. The following function returns true if the parameter age is greater than
+   18. Otherwise it asks for a confirmation and returns its result:
+
+   function checkAge(age) 
+   { 
+     if (age> 18) 
+     { 
+       return true; 
+     }
+     else 
+     {
+        // ...return confirm (‘did parents allow you?');
+     }
+   }
+Ans. If value 18 passes through parameter it gives an output 'did parents allow you?' and  If value 19 passes through parameter it gives an output true.
+
+6. Replace Function Expressions with arrow functions in the code below:
+ 
+   Function ask(question, yes, no) 
+   { 
+      if (confirm(question))
+        yes();
+      else
+        no();
+   }
+  ask("Do you agree?", 
+
+  function() { alert("You agreed."); }
+  
+  function() { alert("You canceled the execution."); }
+  );
+
+Ans. var ask = (question, yes, no) =>{
+        if(confirm(question))
+            yes();
+            // alert("yes");
+        else
+            no();
+            // alert("no");
+     }
+     ask("Do you agree?",
+              
+             () => alert("You agreed."),
+
+             () => alert("you cancelled the execution.") 
+             );
