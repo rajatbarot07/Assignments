@@ -1,0 +1,100 @@
+1.What is JSON?
+
+Ans.JSON stands for Javascript Object Notation,It is an open standard format for exchanging data on the web. It supports data structures like objects and arrays. 
+    So, it is easy to write and read data from JSON. And which is lightweight and text-based, designed explicitly for human-readable data interchange. It is a 
+    language-independent data format. It supports almost every kind of language, framework, and library.
+
+2.What is promises?
+
+Ans.Promises are used to handle asynchronous operations in JavaScript. They are easy to manage when dealing with multiple asynchronous operations where callbacks 
+    can create callback hell leading to unmanageable code. Suppose, we have made a request to fetch some data from the server by using the Promise if we get that 
+    data from the server successfully, the Promise will be considered as resolved successfully, but in case, we don't get that data from the server 
+    due to any reason, that means the Promise was rejected or not completed.
+
+   For Eg. <script type="text/javascript">
+		const mypro = new Promise((resolve,reject)=>{
+			let a = 5;
+			let b = 15;
+			if(a == b)
+			{
+				resolve("true");
+			}
+			else
+			{
+				reject("false");
+			}
+		}).then((res)=>console.log(res))  //If successfully completed then through .then() the response will get.
+		.catch((ErrorHndl)=>console.log(ErrorHndl));  //If it is rejected the through .catch() gives an error.
+	</script>
+3.Write a program of promises and handle that promises also?
+
+Ans. <script type="text/javascript">
+		const mypro = new Promise((isAdmin,noAdmin)=>{
+			let name = "John";
+			let age = 30;
+			if(name=="John" && age == 30)
+			{
+				isAdmin("true");
+			}
+			else
+			{
+				noAdmin("false");
+			}
+		}).then((res)=>console.log(res))
+		.catch((ErrorHndl)=>console.log(ErrorHndl));
+	</script>
+
+4.Use fetch method for calling an api https://fakestoreapi.com/products?
+
+Ans.<script type="text/javascript">
+    fetch(' https://fakestoreapi.com/products')
+    .then((data)=>data.json())
+    .then((res)=>{
+        console.log(res);
+    </script>
+
+5.Display all the product from the api in your HTML page?
+
+Ans.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" align="center">
+            <th>Id</th>
+            <th>title</th>
+            <th>price</th>
+            <th>description</th>
+            <th>category</th> 
+            <th>rating</th>   
+            <th>image</th>
+        <tbody id="dispdata">
+        </tbody>
+    </table>
+</body>
+</html>
+<script>
+    fetch(' https://fakestoreapi.com/products')
+    .then((data)=>data.json())
+    .then((res)=>{
+        console.log(res);
+        HTMLDATA = '';
+        res.forEach(element => {
+            HTMLDATA+= `<tr>
+                    <td>${element.id}</td>
+                    <td>${element.title}</td>
+                    <td>${element.price}</td>
+                    <td>${element.description}</td>
+                    <td>${element.category}</td>
+                    <td>${element.rating['count']}   ${element.rating['rate']}</td>
+                    <td>${element.image}</td>
+                </tr>`
+        });
+        console.log(HTMLDATA);
+        document.querySelector('#dispdata').innerHTML=HTMLDATA;
+    })
+</script>
